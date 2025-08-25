@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { SVGProps } from "react";
 
 export const GithubLogo = (props: SVGProps<SVGSVGElement>) => (

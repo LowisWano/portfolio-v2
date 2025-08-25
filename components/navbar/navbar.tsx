@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { GithubLogo, LinkedinLogo, XLogo } from "../icons";
-import { Linkedin } from "lucide-react";
-import { Logo } from "./logo";
+import { GithubLogo, LinkedinLogo } from "../icons";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
 

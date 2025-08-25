@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { MapPin, GraduationCap, FlaskConical, Laptop } from "lucide-react";
+import { MapPin, GraduationCap, FlaskConical } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
 import { Badge } from "@/components/ui/badge";
@@ -121,14 +121,4 @@ const About = () => {
   );
 };
 
-const ProfileImage = ({
-  className,
-  ...props
-}: HTMLAttributes<HTMLDivElement>) => (
-  <div className={cn("w-48 h-48 md:w-64 md:h-64", className)} {...props}>
-    <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
-      <Image src="/grad-pic.jpg" alt="" className="object-cover" fill />
-    </div>
-  </div>
-);
 export default About;

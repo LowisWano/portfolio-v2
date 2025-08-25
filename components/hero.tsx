@@ -1,8 +1,6 @@
-import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { CircleArrowDown, Download, Mail, Zap } from "lucide-react";
+import { Download, Mail, Zap } from "lucide-react";
 import Link from "next/link";
 
 const Hero = () => {
