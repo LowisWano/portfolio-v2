@@ -1,7 +1,5 @@
-import { cn } from "@/lib/utils";
 import { MapPin, GraduationCap, FlaskConical } from "lucide-react";
 import Image from "next/image";
-import { HTMLAttributes } from "react";
 import { Badge } from "@/components/ui/badge";
 import { GithubLogo, LinkedinLogo } from "./icons";
 
