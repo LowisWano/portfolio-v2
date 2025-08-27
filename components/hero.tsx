@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Download, Mail, Zap } from "lucide-react";
 import Link from "next/link";
+import { bebasNeue } from "@/lib/fonts";
 
 const Hero = () => {
   return (
@@ -12,11 +13,11 @@ const Hero = () => {
           <Zap className="fill-current" />
           Fullstack Web Developer
         </Badge>
-        <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
+        <h1 className={`${bebasNeue.className} mt-6 text-4xl sm:text-5xl md:text-9xl font-bold !leading-[1.2] tracking-tight`}>
           Luis Andrei Ouano
         </h1>
-        <p className="mt-6 text-[17px] md:text-lg">
-          Hey there! I&apos;m Luis Andrei Ouano— a developer specializing in full stack development. Let&apos;s connect and create impactful technology together 🚀
+        <p className="mt-6 text-[17px] md:text-xl">
+        Shaping experiences where data, design, and development converge.
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Link href="/pdf/Ouano-Luis_Resume.pdf">
