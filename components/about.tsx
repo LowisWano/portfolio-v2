@@ -26,9 +26,9 @@ const About = () => {
 
   return (
     <section id="about" className="">
-      <div className="max-w-screen-md mx-auto">
-        <div className="flex gap-3">
-          <div className="flex-1 md:text-left flex flex-col gap-3">
+      <div className="max-w-[900px] mx-auto px-4">
+        <div className="flex flex-col md:flex-row gap-3 md:gap-6">
+          <div className="flex-1 md:text-left flex flex-col gap-3 order-2 md:order-1">
 
             <div className="border rounded-xl bg-background p-4">
               <h2 className="text-3xl font-bold mb-4 tracking-tight">
@@ -36,10 +36,10 @@ const About = () => {
               </h2>
               <p className="text-muted-foreground text-justify mb-2">Heya, I&apos;m Luis!</p>
               <p className="text-muted-foreground text-justify mb-2">
-                I&apos;m a full-stack software engineer specializing in developing solutions with TypeScript, React, and PostgreSQL. I work on projects including building modern websites, web applications and mobile apps.
+                I&apos;m a full-stack software engineer specializing in developing solutions with TypeScript and React. I work on projects including building modern websites, web applications and mobile apps.
               </p>
               <p className="text-muted-foreground text-justify">
-                Lately I&apos;m interested in containerization, AWS, and DevOps. Outside of coding, I like researching stuff about religion, theology, finance, investing, and random nerdy topics.
+                Lately I&apos;m interested in containerization, AWS, and DevOps. Outside of coding, I like researching stuff about theology, finance, investing, and random nerdy topics.
               </p>
             </div>
 
@@ -49,7 +49,7 @@ const About = () => {
                 Tech Stack
               </h2>
               <p className="text-muted-foreground text-justify mb-1">Frontend</p>
-              <div className="flex gap-1 mb-2">
+              <div className="flex flex-wrap gap-2 mb-2">
                 {
                   frontend.map(f => (
                     <Badge key={f} variant="outline">
@@ -59,7 +59,7 @@ const About = () => {
                 }
               </div>
               <p className="text-muted-foreground text-justify mb-1">Backend</p>
-              <div className="flex gap-1 mb-2">
+              <div className="flex flex-wrap gap-2 mb-2">
                 {
                   backend.map(f => (
                     <Badge key={f} variant="outline">
@@ -69,7 +69,7 @@ const About = () => {
                 }
               </div>
               <p className="text-muted-foreground text-justify mb-1">Devops & Cloud</p>
-              <div className="flex gap-1">
+              <div className="flex flex-wrap gap-2">
                 {
                   devopsAndCloud.map(f => (
                     <Badge key={f} variant="outline">
@@ -82,9 +82,9 @@ const About = () => {
             
           </div>
 
-          <div className="border rounded-xl bg-background p-4">
-            <div className="relative rounded-2xl overflow-hidden bg-accent">
-              <Image src="/grad-pic.jpg" alt="" className="object-cover" height={300} width={300}/>
+          <div className="border rounded-xl bg-background p-4 order-1 md:order-2 w-full md:w-80 shrink-0">
+            <div className="relative rounded-2xl overflow-hidden bg-accent w-full h-[315px]">
+              <Image src="/grad-pic.jpg" alt="Luis Andrei Ouano" className="object-cover w-full h-full" fill sizes="(max-width: 768px) 100vw, 320px"/>
             </div>
 
             <div className="mt-4 flex flex-col gap-4">
@@ -103,7 +103,7 @@ const About = () => {
                 </div>
               </div>
               
-              <div className="flex w-full gap-1 ">
+              <div className="flex w-full gap-2">
                 <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><GithubLogo className="h-6 w-6"/></div>
                 <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><LinkedinLogo/></div>
                 <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><Image src="/facebook.png" alt="facebook" height={25} width={25}/></div>
