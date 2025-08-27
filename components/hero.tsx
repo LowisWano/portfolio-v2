@@ -19,16 +19,16 @@ const Hero = () => {
           Hey there! I&apos;m Luis Andrei Ouano— a developer specializing in full stack development. Let&apos;s connect and create impactful technology together 🚀
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
-          <Link href="https://github.com/LowisWano">
+          <Link href="/pdf/Ouano-Luis_Resume.pdf">
             <Button size="lg" className="rounded-full text-base">
-              Contact Me
-              <Mail/>
+            Resume
+            <Download />
             </Button>
           </Link>
           <Link href="https://github.com/LowisWano">
             <Button size="lg"  variant="outline" className="rounded-full text-base">
-              Resume
-              <Download />
+              Contact Me
+              <Mail/>
             </Button>
           </Link>
         </div>
