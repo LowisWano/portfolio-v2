@@ -2,6 +2,7 @@ import { MapPin, GraduationCap, FlaskConical } from "lucide-react";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { GithubLogo, LinkedinLogo } from "./icons";
+import Link from "next/link";
 
 const About = () => {
   const frontend = [
@@ -13,9 +14,12 @@ const About = () => {
   ]
 
   const backend = [
+    ".NET",
+    "Spring Boot",
     "Node.js",
-    "Python",
-    "PostgreSQL"
+    "Express",
+    "FastAPI",
+    "NestJS"
   ]
 
   const devopsAndCloud = [
@@ -34,13 +38,14 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-4 tracking-tight">
                 About Me
               </h2>
-              <p className="text-muted-foreground text-justify mb-2">Heya, I&apos;m Luis!</p>
               <p className="text-muted-foreground text-justify mb-2">
-                I&apos;m a full-stack software engineer specializing in developing solutions with TypeScript and React. I work on projects including building modern websites, web applications and mobile apps.
+              Dynamic and adaptable software engineer with a focus on web and mobile development. Proficient in building
+              robust, scalable, and user-centric applications using modern technologies and frameworks. Experienced in
+              software development best practices and effective team collaboration, with strong communication and problem-
+              solving skills that support efficient project delivery. Passionate about creating innovative solutions that enhance
+              user experiences while driving business success.
               </p>
-              <p className="text-muted-foreground text-justify">
-                Lately I&apos;m interested in containerization, AWS, and DevOps. Outside of coding, I like researching stuff about theology, finance, investing, and random nerdy topics.
-              </p>
+            
             </div>
 
             <div className="border rounded-xl bg-background p-4">
@@ -104,9 +109,15 @@ const About = () => {
               </div>
               
               <div className="flex w-full gap-2">
+                <Link href="https://github.com/LowisWano">
                 <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><GithubLogo className="h-6 w-6"/></div>
+                </Link>
+                <Link href="https://www.linkedin.com/in/luis-andrei-ouano-189606247/">
                 <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><LinkedinLogo/></div>
+                </Link>
+                <Link href="https://www.facebook.com/Luisgwapo.kaayo">
                 <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><Image src="/facebook.png" alt="facebook" height={25} width={25}/></div>
+                </Link>
               </div>
             </div>
             
