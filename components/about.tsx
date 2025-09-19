@@ -109,14 +109,14 @@ const About = () => {
               </div>
               
               <div className="flex w-full gap-2">
-                <Link href="https://github.com/LowisWano">
-                <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><GithubLogo className="h-6 w-6"/></div>
+                <Link href="https://github.com/LowisWano" className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4">
+                <div><GithubLogo className="h-6 w-6"/></div>
                 </Link>
-                <Link href="https://www.linkedin.com/in/luis-andrei-ouano-189606247/">
-                <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><LinkedinLogo/></div>
+                <Link href="https://www.linkedin.com/in/luis-andrei-ouano-189606247/" className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4">
+                <div><LinkedinLogo/></div>
                 </Link>
-                <Link href="https://www.facebook.com/Luisgwapo.kaayo">
-                <div className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4"><Image src="/facebook.png" alt="facebook" height={25} width={25}/></div>
+                <Link href="https://www.facebook.com/Luisgwapo.kaayo" className="flex-1 flex items-center justify-center border rounded-xl bg-background p-4">
+                <div><Image src="/facebook.png" alt="facebook" height={25} width={25}/></div>
                 </Link>
               </div>
             </div>
