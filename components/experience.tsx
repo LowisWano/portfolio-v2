@@ -58,8 +58,8 @@ const Experience = () => {
       company: "NextStepX Solutions Co.",
       period: "March 2025 - Present",
       description:
-        "Developed full-stack applications and robust dashboard interfaces using .NET, C#, and SQL Server.",
-      technologies: [".NET", "C#", "SQL Server"],
+        "Developed an advanced medical management system using C#, ASP.NET with MVC architecture, and SQL Server to optimize clinic workflows and inventory operations",
+      technologies: ["C#", "ASP.NET", "SQL Server"],
     },
     {
       title: "Web Developer",

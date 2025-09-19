@@ -14,17 +14,8 @@ const Footer = () => {
           </span>
 
           <div className="flex items-center gap-5 text-muted-foreground">
-            <Link href="#" target="_blank">
+            <Link href="https://github.com/LowisWano" target="_blank">
               <GithubLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <XLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <BlueSkyLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <DribbleLogo className="h-5 w-5" />
             </Link>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import { geistSans } from "@/lib/fonts";
 
 export const metadata: Metadata = {
-  title: "Luis Andrei Ouano | Portfolio",
+  title: "Luis - Software Engineer",
   description: "A beautiful portfolio template built with Shadcn UI, Tailwind CSS 4, and Next.js 15",
 };
 
