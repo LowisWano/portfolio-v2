@@ -31,7 +31,7 @@ const About = () => {
   return (
     <section id="about" className="">
       <div className="max-w-[900px] mx-auto px-4">
-        <div className="flex flex-col md:flex-row gap-3 md:gap-6">
+        <div className="flex flex-col md:flex-row gap-3 md:gap-3">
           <div className="flex-1 md:text-left flex flex-col gap-3 order-2 md:order-1">
 
             <div className="border rounded-xl bg-background p-4">
