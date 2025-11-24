@@ -31,7 +31,7 @@ const About = () => {
   return (
     <section id="about" className="">
       <div className="max-w-[900px] mx-auto px-4">
-        <div className="flex flex-col md:flex-row gap-3 md:gap-6">
+        <div className="flex flex-col md:flex-row gap-3 md:gap-3">
           <div className="flex-1 md:text-left flex flex-col gap-3 order-2 md:order-1">
 
             <div className="border rounded-xl bg-background p-4">
@@ -89,7 +89,7 @@ const About = () => {
 
           <div className="border rounded-xl bg-background p-4 order-1 md:order-2 w-full md:w-80 shrink-0">
             <div className="relative rounded-2xl overflow-hidden bg-accent w-full h-[315px]">
-              <Image src="/grad-pic.jpg" alt="Luis Andrei Ouano" className="object-cover w-full h-full" fill sizes="(max-width: 768px) 100vw, 320px"/>
+              <Image src="/profile.png" alt="Luis Andrei Ouano" className="object-cover w-full h-full" fill sizes="(max-width: 768px) 100vw, 320px"/>
             </div>
 
             <div className="mt-4 flex flex-col gap-4">
