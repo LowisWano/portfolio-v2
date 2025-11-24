@@ -89,7 +89,7 @@ const About = () => {
 
           <div className="border rounded-xl bg-background p-4 order-1 md:order-2 w-full md:w-80 shrink-0">
             <div className="relative rounded-2xl overflow-hidden bg-accent w-full h-[315px]">
-              <Image src="/grad-pic.jpg" alt="Luis Andrei Ouano" className="object-cover w-full h-full" fill sizes="(max-width: 768px) 100vw, 320px"/>
+              <Image src="/profile.png" alt="Luis Andrei Ouano" className="object-cover w-full h-full" fill sizes="(max-width: 768px) 100vw, 320px"/>
             </div>
 
             <div className="mt-4 flex flex-col gap-4">
